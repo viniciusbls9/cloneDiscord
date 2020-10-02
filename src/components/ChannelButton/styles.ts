@@ -26,7 +26,10 @@ export const FirstBox = styled.div`
 `;
 
 export const HashtagIcon = styled(Hashtag)`
+    width: 20px;
+    height: 20px;
 
+    color: var(--symbol);
 `;
 
 export const Span = styled.span`
@@ -44,9 +47,31 @@ export const SecondyBox = styled.div`
 `;
 
 export const InviteIcon = styled(PersonAdd)`
+    width: 16px;
+    height: 16px;
 
+    color: var(--symbol);
+    cursor: pointer;
+
+    transition: color .2s;
+
+    &:hover {
+        color:var(--white);
+    }
 `;
 
 export const SettingsIcon = styled(Settings)`
+    width: 16px;
+    height: 16px;
 
+    margin-left: 4px;
+
+    color: var(--symbol);
+    cursor: pointer;
+
+    transition: color .2s;
+
+    &:hover {
+        color:var(--white);
+    }
 `;
